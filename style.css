@@ -1,0 +1,65 @@
+body {
+    background: rgb(104, 174, 240);
+    font-family: 'Nunito';
+    height: 100%;
+    font-size: 18px;
+}
+
+.container {
+    max-width: 700px;
+    margin: 2rem auto;
+    background: #fff;
+    padding: 40px;
+    border-radius: 10px;
+}
+
+h1{
+    color: #FFF;
+}
+
+.table {
+    width: 100%;
+    margin-bottom: 1rem;
+    color: #212529;
+    border-collapse: collapse;
+}
+
+th {
+    font-size: 24px;
+}
+
+.table thead th {
+    border-bottom: 2px solid #dee2e6;
+    border-top: 0;
+    vertical-align: bottom;
+    user-select: none;
+}
+
+.table td,
+.table th {
+    padding: 0.75rem;
+    border-top: 1px solid #dee2e6;
+    user-select: none;
+}
+
+.title {
+    margin-left: 16px;
+    font-family: "Georgia", serif;
+    font-style: italic;
+}
+
+.total {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.total-harga {
+    border: none;
+    font-size: 22px;
+    font-weight: bold;
+    color: #02c39a;
+}
+
+footer {
+    height: 120px;
+}
